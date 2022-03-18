@@ -1,0 +1,10 @@
+include ../mixins/skills_item
+
+.container 
+    h2.skills__title 
+        span Skills
+    .skills__items 
+        +skills-item("./assets/imgs/camera.svg", "Digital photography", "High-quality photos in the studio and on the nature")
+        +skills-item("./assets/imgs/video.svg", "Video shooting", "Capture your moments so that they always stay with you")
+        +skills-item("./assets/imgs/landscape.svg", "Retouch", "I strive to make photography surpass reality")
+        +skills-item("./assets/imgs/mic.svg", "Audio", "Professional sounds recording for video, advertising, portfolio")

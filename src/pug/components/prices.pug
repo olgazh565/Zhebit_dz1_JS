@@ -1,0 +1,9 @@
+include ../mixins/prices_item
+
+.container 
+    h2.prices__title 
+        span Price
+    .prices__cards 
+        +prices-item("Standard", "500 $", "One location", "120 photos in color", "12 photos in retouch", "Readiness 2-3 weeks", "Make up, visage", "Order shooting")
+        +prices-item("Premium", "700 $", "One or two locations", "200 photos in color", "20 photos in retouch", "Readiness 1-2 weeks", "Make up, visage", "Order shooting")
+        +prices-item("Gold", "1000 $", "Three locations or more", "300 photos in color", "50 photos in retouch", "Readiness 1 week", "Make up, visage, hairstyle", "Order shooting")

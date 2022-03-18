@@ -8,6 +8,112 @@
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body>
-    <p>Test text in index.pug</p>
+    <header class="header"> 
+      <div class="container"> 
+        <div class="header__row"><a class="logo" href="index.html"><img src="./assets/imgs/logo 1.svg" alt="logo"></a>
+          <menu class="nav"> <a class="nav__link" href="#">Skills</a><a class="nav__link" href="#">Portfolio</a><a class="nav__link" href="#">Video </a><a class="nav__link" href="#">Price</a><a class="nav__link" href="#">Contacts</a>
+            <div class="nav__switch"><span class="nav__switch_en">en </span><span>/ </span><span class="nav__switch_ru">ru</span></div>
+          </menu>
+        </div>
+        <h1 class="header__name">Alexa Rise</h1>
+        <p class="header__slogan">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+        <button class="header__button">Hire me             </button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container"> 
+        <h2 class="skills__title"> <span>Skills</span></h2>
+        <div class="skills__items"> 
+                <div class="skills__item"> <img class="skills__img" src="./assets/imgs/camera.svg" alt="img">
+                  <p class="skills__name">Digital photography</p>
+                  <p class="skills__description">High-quality photos in the studio and on the nature</p>
+                </div>
+                <div class="skills__item"> <img class="skills__img" src="./assets/imgs/video.svg" alt="img">
+                  <p class="skills__name">Video shooting</p>
+                  <p class="skills__description">Capture your moments so that they always stay with you</p>
+                </div>
+                <div class="skills__item"> <img class="skills__img" src="./assets/imgs/landscape.svg" alt="img">
+                  <p class="skills__name">Retouch</p>
+                  <p class="skills__description">I strive to make photography surpass reality</p>
+                </div>
+                <div class="skills__item"> <img class="skills__img" src="./assets/imgs/mic.svg" alt="img">
+                  <p class="skills__name">Audio</p>
+                  <p class="skills__description">Professional sounds recording for video, advertising, portfolio</p>
+                </div>
+        </div>
+      </div>
+      <section> 
+        <div class="container"> 
+          <h2 class="portfolio__title"> <span>Portfolio</span></h2>
+          <div class="portfolio__buttons">
+            <button class="portfolio__button">Winter </button>
+            <button class="portfolio__button">Spring </button>
+            <button class="portfolio__button">Summer </button>
+            <button class="portfolio__button">Autumn          </button>
+          </div>
+          <div class="portfolio__imgs"> <img class="portfolio__img" src="./assets/imgs/portfolio-img.png" alt="1"><img class="portfolio__img" src="./assets/imgs/portfolio-img (1).png" alt="2"><img class="portfolio__img" src="./assets/imgs/portfolio-img (2).png" alt="3"><img class="portfolio__img" src="./assets/imgs/portfolio-img (3).png" alt="4"><img class="portfolio__img" src="./assets/imgs/portfolio-img (4).png" alt="5"><img class="portfolio__img" src="./assets/imgs/portfolio-img (5).png" alt="6"></div>
+          <h2 class="portfolio__title"><span>Video</span></h2>
+          <div class="portfolio__video"> <img src="./assets/imgs/video-player.png" alt="video"></div>
+        </div>
+      </section>
+      <div class="container"> 
+        <h2 class="prices__title"> <span>Price</span></h2>
+        <div class="prices__cards"> 
+                <div class="prices__card card">
+                  <h3 class="card__title">Standard</h3>
+                  <p class="card__price">500 $</p>
+                  <p class="card__description">One location</p>
+                  <p class="card__description">120 photos in color</p>
+                  <p class="card__description">12 photos in retouch</p>
+                  <p class="card__description">Readiness 2-3 weeks</p>
+                  <p class="card__description">Make up, visage</p>
+                  <button class="card__button">Order shooting</button>
+                </div>
+                <div class="prices__card card">
+                  <h3 class="card__title">Premium</h3>
+                  <p class="card__price">700 $</p>
+                  <p class="card__description">One or two locations</p>
+                  <p class="card__description">200 photos in color</p>
+                  <p class="card__description">20 photos in retouch</p>
+                  <p class="card__description">Readiness 1-2 weeks</p>
+                  <p class="card__description">Make up, visage</p>
+                  <button class="card__button">Order shooting</button>
+                </div>
+                <div class="prices__card card">
+                  <h3 class="card__title">Gold</h3>
+                  <p class="card__price">1000 $</p>
+                  <p class="card__description">Three locations or more</p>
+                  <p class="card__description">300 photos in color</p>
+                  <p class="card__description">50 photos in retouch</p>
+                  <p class="card__description">Readiness 1 week</p>
+                  <p class="card__description">Make up, visage, hairstyle</p>
+                  <button class="card__button">Order shooting</button>
+                </div>
+        </div>
+      </div>
+      <div class="form__background"> 
+        <div class="container"> 
+          <div class="form__container"> 
+            <h2 class="form__title">Contact me</h2>
+            <form class="form__contact" action=""> 
+              <input class="form__email_phone" type="text" placeholder="E-mail">
+              <input class="form__email_phone" type="text" placeholder="Phone" maxlength="13">
+              <textarea class="form__message" type="text" placeholder="Message"></textarea>
+              <button class="form__button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__left">
+          <p>&copy</p>
+          <p>2022</p>
+          <p><a href="https://github.com/olgazh565?tab=repositories">github</a></p>
+        </div>
+        <div class="footer__links"> <a href="https://www.instagram.com/"><img src="./assets/imgs/instagram.svg" alt="instagram"></a><a href="https://www.facebook.com/"><img src="./assets/imgs/facebook.svg" alt="facebook"></a><a href="https://twitter.com/"><img src="./assets/imgs/twitter.svg" alt="twitter"></a><a href="https://www.pinterest.com"><img src="./assets/imgs/pintrest.svg" alt="pintrest"></a></div>
+      </div>
+    </div>
   </body>
 </html>
